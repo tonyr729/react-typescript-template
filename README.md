@@ -5,6 +5,36 @@
 This project uses [npm](https://www.npmjs.com/). 
 
 Run `npm install`
+
+---
+
+## 🪝 &nbsp; Commiting Code
+
+In effort to improve standardization, this project uses [Husky Commit Hooks](https://typicode.github.io/husky/#/) to run linting and styling checks, as well as sanitization on commit messages using [commitlint](https://commitlint.js.org/#/).
+
+To commit code use the following syntax 
+```bash
+type(scope?): subject
+body?
+footer?
+```
+Examples:
+```bash
+"feat(TSB-111): add sidebar component"
+```
+```bash
+"style(sidebar): add css for sidebar items"
+```
+```bash
+"docs(readme): update readme"
+```
+```bash
+"refactor(app.js): fix syntax errors"
+```
+See [conventional commits documentation](https://www.conventionalcommits.org/en/v1.0.0/#specification) for more help.
+
+---
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -28,9 +58,6 @@ Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run prettier` -- `npm run prettier:fix`
 
