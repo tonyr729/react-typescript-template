@@ -6,7 +6,6 @@ This project uses [npm](https://www.npmjs.com/).
 
 Run `npm install`
 
----
 
 ## 🪝 &nbsp; Commiting Code
 
@@ -33,7 +32,6 @@ Examples:
 ```
 See [conventional commits documentation](https://www.conventionalcommits.org/en/v1.0.0/#specification) for more help.
 
----
 
 ## Available Scripts
 
